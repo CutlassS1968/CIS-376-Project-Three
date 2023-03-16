@@ -55,6 +55,7 @@ class Pinball (Framework):
             position=p2,
             **flipper
         )
+        print(self.rightFlipper)
 
         rjd = b2RevoluteJointDef(
             bodyA=ground,
