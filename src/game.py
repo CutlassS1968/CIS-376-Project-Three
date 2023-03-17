@@ -25,7 +25,7 @@ class Game:
                     pygame.quit()
                     sys.exit()
             dt = self.clock.tick(FRAME_RATE) / 1000
-            self.instance.run(dt)
+            self.instance.step(dt)
             pygame.display.update()
 
 
